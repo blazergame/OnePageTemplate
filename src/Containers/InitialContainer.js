@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import InitialComponent from '../Components/InitialComponent.js';
 
 class InitialContainer extends Component {
 
@@ -14,7 +13,6 @@ class InitialContainer extends Component {
     render(){
         return(
             <div>
-                <InitialComponent />
                 <p>Hi from Container</p>
             </div>
         );

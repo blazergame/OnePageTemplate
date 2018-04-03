@@ -1,0 +1,12 @@
+.card-position {
+    display:inline-block;
+}
+
+.card-body {
+    width:500px;
+}
+
+.card {
+    display:inline-block;
+    padding-top:35px;
+}
