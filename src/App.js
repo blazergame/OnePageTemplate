@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Cards from './Components/Cards/Cards';
+import Workflow from './Components/Workflow/Workflow';
 
 class App extends Component {
   render() {
@@ -14,6 +15,8 @@ class App extends Component {
         <Header />
         <br /> <br />
         <Cards />
+        <br />
+        <Workflow />
         <br />
         <Footer />
       </div>
