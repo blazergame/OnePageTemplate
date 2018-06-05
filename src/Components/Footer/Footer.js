@@ -39,7 +39,7 @@ const Footer = () => {
 
             <div class="footer-copyright py-3 text-center">
                 © 2018 Copyright:
-                <a href="#"> Benson.com </a>
+                <a href="#"> Benson Li </a>
             </div>
 
         </footer>

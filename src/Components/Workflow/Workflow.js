@@ -1,11 +1,14 @@
 import React from 'react';
-import './workflow.css'
+import './workflow.css';
+import chart from './chart.jpg';
 
 const Workflow = () => {
     return(
         <div>
-            <img src="chart.jpg" alt='chart'/>
+            <hr className="separators"/>
 
+            <img src={chart} alt='chart' className='stats-chart'/>
+            
             <form class="message-form">
                 <p class="h4 text-center mb-4">Write to us</p>
 
